@@ -555,7 +555,7 @@ def doNext(message,left,all_sprites_list,block_list,monsta_list,pacman_collide,w
       w = pygame.Surface((400,200))  # the size of your rect
       w.set_alpha(10)                # alpha level
       w.fill((0,0,0))           # this fills the entire surface
-      screen.blit(w, (0,0))    # (0,0) are the top-left coordinates
+      screen.blit(w, (100,200))    # (0,0) are the top-left coordinates
 
       #Won or lost
       text1=font.render(message, True, white)
